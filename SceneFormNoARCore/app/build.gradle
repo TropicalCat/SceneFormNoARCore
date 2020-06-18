@@ -41,7 +41,11 @@ dependencies {
 
     //sceneform
     // Provides ArFragment, and other UX resources.
-    implementation 'com.google.ar.sceneform.ux:sceneform-ux:1.15.0'
+    //implementation 'com.google.ar.sceneform.ux:sceneform-ux:1.15.0'
+
+    // Use the Sceneform UX Package built from the source files included in the sceneformux folder.
+    api project(":sceneformux")
+
     // Alternatively, use ArSceneView without the UX dependency.
     //implementation 'com.google.ar.sceneform:core:1.15.0'
 }

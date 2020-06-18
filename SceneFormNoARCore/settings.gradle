@@ -2,4 +2,4 @@ rootProject.name='SceneFormNoARCore'
 include ':app'
 
 include ':sceneformux'
-project(':sceneformux').projectDir=new File('../sceneformux/ux')
+project(':sceneformux').projectDir = new File('../sceneformux/ux')
